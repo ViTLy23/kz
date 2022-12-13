@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Пилипів Віктор</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+      header {
+        width: 100%;
+        height: 5rem;
+        background-color: red;
+        background-image: linear-gradient(to right, red, yellow);
+        text-align: center;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 3rem;
+        color: whitesmoke;
+      }
+      body {
+        font-family: Pacifico , serif;
+        font-size: 1.5rem;
+      }
+      h1 {
+        text-align: center;
+      }
+      label {
+        display: block;
+        font: 1rem "Fira Sans", sans-serif;
+      }
+      input,
+      label {
+        margin: 0.4rem 0;
+        margin-right: 15px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      input[type="submit"] {
+        background-color: #04aa6d;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      box {
+        border: 3px solid rebeccapurple;
+        width: 75%;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+      }
+      footer {
+        text-align: center;
+        padding: 3px;
+        background-color: red;
+        background-image: linear-gradient(to right, red, yellow);
+        color: white;
+      } 
+    </style>
+  </head>
+
+  <body>
+    <header>Linux</header>
+    <main class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="row-1 d-flex">
+            <div class="col-sm-1.5">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/152px-Tux.svg.png"
+                alt="Tux"
+              />
+            </div>
+            <div class="col-sm-10.5">
+              Тукс — персонаж пінгвіна та офіційний бренд ядра Linux.
+              Спочатку створений як заявка на конкурс логотипів Linux, Tux є
+              найпоширенішим значком для Linux, хоча різні дистрибутиви Linux
+              зображують Tux у різних стилях. Символ використовується в багатьох
+              інших програмах Linux і як загальний символ Linux.
+            </div>
+          </div>
+          <h1>Заповнити анкету</h1>
+          <form>
+            <div class="row-3 d-flex">
+              <div class="col-sm-6">
+                <h2>
+                  <label for="name">Ім'я</label>
+                  <input type="text" id="name" name="name" size="12" />
+                </h2>
+              </div>
+
+              <div class="col-sm-6">
+                <h2>
+                  <label for="name">Прізвище</label>
+                  <input
+                    type="text"
+                    id="lastname"
+                    name="lastname"
+                    size="12"
+                  /><br />
+                </h2>
+              </div>
+            </div>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" width="50%" /><br />
+            <label for="addres">Адреса</label>
+            <input
+              type="text"
+              id="addres"
+              name="addres"
+              size="50%"
+            /><br /><br />
+            <input type="submit" value="Зареєструватись" />
+          </form>
+          <div class="box">
+            <iframe
+              src="https://www.youtube.com/embed/GDSpP405O00"
+              style="border: 0; width: 100%; height: 500px; border-radius: 20px"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <footer>
+              <a href="https://www.instagram.com/_vitly_/"
+                >Віктор Пилипів КІ-41</a>
+            </p>
+          </footer>
+        </div>
+      </div>
+    </main>
+
+    <!-- JS-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
